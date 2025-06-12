@@ -92,7 +92,7 @@ namespace Shot
                     idx1.transform.rotation = Quaternion.Euler(0, 0, direction + _xx[i]);
 
                     //정밀한 속도 처리로 모양을 만들어 낸다.
-                    idx1.GetComponent<Bullet>().Speed = _v[i] * Speed / Subdivision;
+                    idx1.GetComponent<BulletController>().Speed = _v[i] * Speed / Subdivision;
 
                     #endregion
 
@@ -111,7 +111,7 @@ namespace Shot
                     idx2.transform.rotation = Quaternion.Euler(0, 0, direction - _xx[i]);
 
                     //정밀한 속도 처리로 모양을 만들어 낸다.
-                    idx2.GetComponent<Bullet>().Speed = _v[i] * Speed / Subdivision;
+                    idx2.GetComponent<BulletController>().Speed = _v[i] * Speed / Subdivision;
 
                     #endregion
 
@@ -130,7 +130,7 @@ namespace Shot
                     idx3.transform.rotation = Quaternion.Euler(0, 0, direction);
 
                     //정밀한 속도 처리로 모양을 만들어 낸다.
-                    idx3.GetComponent<Bullet>().Speed = Speed;
+                    idx3.GetComponent<BulletController>().Speed = Speed;
 
                     #endregion
 

@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 0a87a0196d092054eb3adfef8c49f474
+guid: 63a06bcfc9053764c9f5685bc4543de2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
   - pointItemPrefab: {fileID: 6740705062516073937, guid: d110882023981fb478e8985877df4002, type: 3}
   - powerItemPrefab: {fileID: 3697641781664328347, guid: 1fc47240d4e4ce64cafc93e76af23e18, type: 3}
-  - shotPrefab: {fileID: 4324919951627604771, guid: b5159f1910f411f44aebbe41e40e5a2c, type: 3}
+  - shotPrefab: {fileID: 4324919951627604771, guid: bdae1d9b247a44b4f9f4d2c9ac0e1cfa, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

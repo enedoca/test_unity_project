@@ -45,7 +45,7 @@ namespace Shot
                 temp.transform.rotation = Quaternion.Euler(0, 0, _direction[i] + Rotation);
 
                 //정밀한 속도 처리로 모양을 만들어 낸다.
-                temp.GetComponent<Bullet>().Speed = _speeds[i] / 50;
+                temp.GetComponent<BulletController>().Speed = _speeds[i] / 50;
             }
         }
 
